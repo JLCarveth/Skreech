@@ -1,0 +1,16 @@
+{
+  "name": "skreech",
+  "version": "0.1.0",
+  "description": "A speech-recognition API powered by Whisper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John L. Carveth <jlcarveth@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
