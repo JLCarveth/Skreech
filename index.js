@@ -5,7 +5,7 @@ import multer from "multer";
 import { exec } from "child_process";
 import fs from "fs";
 
-const numCPUs = os.cpus().length;
+const numCPUs = os.availableParallelism();
 
 if (cluster.isPrimary) {
   console.log(`Master ${process.pid} is running`);
